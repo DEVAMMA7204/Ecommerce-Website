@@ -26,21 +26,21 @@ document.getElementById("about").style.color="black"
 
 
 }
-function shops(){
-mainPage.style.display="none";
-blog.style.display="none";
-about.style.display="none"
-card.style.display="block";
-card2.style.display="block";
+function shops() {
+    mainPage.style.display = "none";
+    blog.style.display = "none";
+    about.style.display = "none";
+    contact.style.display = "none";
+    document.querySelector(".cart").style.display = "none";
 
- 
-document.getElementById("blog").style.color="black";
-document.getElementById("home").style.color="black";
-document.getElementById("shop").style.color="rgb(2, 173, 173)";
-document.getElementById("contact").style.color="black";
-document.getElementById("about").style.color="black"
+    card.style.display = "block";
+    card2.style.display = "block";
 
-
+    document.getElementById("blog").style.color = "black";
+    document.getElementById("home").style.color = "black";
+    document.getElementById("shop").style.color = "rgb(2, 173, 173)";
+    document.getElementById("contact").style.color = "black";
+    document.getElementById("about").style.color = "black";
 }
 
 function blogs(){
@@ -116,3 +116,5 @@ function addCart(){
     alert("Added To Cart");
     location.reload()
 }
+
+window.onload = homes;
