@@ -319,3 +319,12 @@ top: 33px;
     margin-top: 22px;
 }
 
+.main,
+.trend,
+#trendSec,
+.trends,
+.about,
+.contact,
+.cart {
+  display: none;
+}
